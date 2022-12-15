@@ -1,0 +1,83 @@
+======= D:\Desktop\BlockchainSecurity2019-master\Haechi\solidity_examples\test\test.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "contract",
+		"line" : 3,
+		"name" : "ShortAddress",
+		"id" : 26
+	}, {
+		"kind" : "contract",
+		"line" : 15,
+		"name" : "ErroneousConstructorName",
+		"id" : 31
+	}, {
+		"kind" : "contract",
+		"line" : 23,
+		"name" : "TimestampDependence",
+		"id" : 50
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "public",
+		"line" : 7,
+		"name" : "transfer",
+		"id" : 16
+	}, {
+		"visibility" : "public",
+		"line" : 10,
+		"name" : "test",
+		"id" : 25
+	}, {
+		"visibility" : "public",
+		"line" : 17,
+		"name" : "erroneousconstructorname",
+		"id" : 30
+	}, {
+		"visibility" : "internal",
+		"line" : 27,
+		"name" : "start",
+		"id" : 49
+	} ],
+	"functionCall" : [ {
+		"caller" : "transfer",
+		"line" : 11,
+		"name" : "None",
+		"id" : 22
+	} ],
+	"VariableDeclaration" : [ {
+		"line" : 4,
+		"name" : "owner",
+		"id" : 5,
+		"isStateVariable" : true,
+		"type" : "address"
+	}, {
+		"line" : 5,
+		"name" : "c",
+		"id" : 8,
+		"isStateVariable" : true,
+		"type" : "uint"
+	}, {
+		"line" : 7,
+		"name" : "_to",
+		"id" : 10,
+		"isStateVariable" : false,
+		"type" : "address"
+	}, {
+		"line" : 7,
+		"name" : "amount",
+		"id" : 12,
+		"isStateVariable" : false,
+		"type" : "uint"
+	}, {
+		"line" : 24,
+		"name" : "startTime",
+		"id" : 33,
+		"isStateVariable" : true,
+		"type" : "uint"
+	}, {
+		"line" : 25,
+		"name" : "coinBase",
+		"id" : 35,
+		"isStateVariable" : true,
+		"type" : "address"
+	} ]
+}

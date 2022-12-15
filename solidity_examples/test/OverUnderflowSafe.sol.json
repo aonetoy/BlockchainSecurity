@@ -1,0 +1,150 @@
+======= D:\Desktop\BlockchainSecurity2019-master\Haechi\solidity_examples\test\OverUnderflowSafe.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "library",
+		"line" : 3,
+		"name" : "SafeMath",
+		"id" : 97
+	}, {
+		"kind" : "contract",
+		"line" : 30,
+		"name" : "OverUnderFlowSafe",
+		"id" : 133
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "internal",
+		"line" : 4,
+		"name" : "mul",
+		"id" : 34
+	}, {
+		"visibility" : "internal",
+		"line" : 13,
+		"name" : "div",
+		"id" : 52
+	}, {
+		"visibility" : "internal",
+		"line" : 18,
+		"name" : "sub",
+		"id" : 72
+	}, {
+		"visibility" : "internal",
+		"line" : 23,
+		"name" : "add",
+		"id" : 96
+	}, {
+		"visibility" : "public",
+		"line" : 35,
+		"name" : "underflow",
+		"id" : 121
+	}, {
+		"visibility" : "public",
+		"line" : 38,
+		"name" : "overflow",
+		"id" : 132
+	} ],
+	"functionCall" : [ {
+		"caller" : "assert",
+		"line" : 9,
+		"name" : "None",
+		"id" : 29
+	}, {
+		"caller" : "assert",
+		"line" : 19,
+		"name" : "None",
+		"id" : 65
+	}, {
+		"caller" : "assert",
+		"line" : 25,
+		"name" : "None",
+		"id" : 91
+	}, {
+		"caller" : "zero",
+		"line" : 36,
+		"name" : "sub",
+		"id" : 117
+	}, {
+		"caller" : "max",
+		"line" : 39,
+		"name" : "add",
+		"id" : 128
+	} ],
+	"VariableDeclaration" : [ {
+		"line" : 8,
+		"name" : "c",
+		"id" : 18,
+		"isStateVariable" : false,
+		"type" : "uint256"
+	}, {
+		"line" : 4,
+		"name" : "a",
+		"id" : 3,
+		"isStateVariable" : false,
+		"type" : "uint256"
+	}, {
+		"line" : 4,
+		"name" : "b",
+		"id" : 5,
+		"isStateVariable" : false,
+		"type" : "uint256"
+	}, {
+		"line" : 14,
+		"name" : "c",
+		"id" : 44,
+		"isStateVariable" : false,
+		"type" : "uint256"
+	}, {
+		"line" : 13,
+		"name" : "a",
+		"id" : 36,
+		"isStateVariable" : false,
+		"type" : "uint256"
+	}, {
+		"line" : 13,
+		"name" : "b",
+		"id" : 38,
+		"isStateVariable" : false,
+		"type" : "uint256"
+	}, {
+		"line" : 18,
+		"name" : "a",
+		"id" : 54,
+		"isStateVariable" : false,
+		"type" : "uint256"
+	}, {
+		"line" : 18,
+		"name" : "b",
+		"id" : 56,
+		"isStateVariable" : false,
+		"type" : "uint256"
+	}, {
+		"line" : 24,
+		"name" : "c",
+		"id" : 82,
+		"isStateVariable" : false,
+		"type" : "uint256"
+	}, {
+		"line" : 23,
+		"name" : "a",
+		"id" : 74,
+		"isStateVariable" : false,
+		"type" : "uint256"
+	}, {
+		"line" : 23,
+		"name" : "b",
+		"id" : 76,
+		"isStateVariable" : false,
+		"type" : "uint256"
+	}, {
+		"line" : 32,
+		"name" : "zero",
+		"id" : 103,
+		"isStateVariable" : true,
+		"type" : "uint"
+	}, {
+		"line" : 33,
+		"name" : "max",
+		"id" : 110,
+		"isStateVariable" : true,
+		"type" : "uint"
+	} ]
+}

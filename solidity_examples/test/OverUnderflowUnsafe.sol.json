@@ -1,0 +1,34 @@
+======= D:\Desktop\BlockchainSecurity2019-master\Haechi\solidity_examples\test\OverUnderflowUnsafe.sol =======
+{
+	"ContractDefinition" : [ {
+		"kind" : "contract",
+		"line" : 3,
+		"name" : "OverUnderFlowUnsafe",
+		"id" : 28
+	} ],
+	"functionDefinition" : [ {
+		"visibility" : "public",
+		"line" : 7,
+		"name" : "underflow",
+		"id" : 19
+	}, {
+		"visibility" : "public",
+		"line" : 10,
+		"name" : "overflow",
+		"id" : 27
+	} ],
+	"functionCall" : [ ],
+	"VariableDeclaration" : [ {
+		"line" : 4,
+		"name" : "zero",
+		"id" : 4,
+		"isStateVariable" : true,
+		"type" : "uint"
+	}, {
+		"line" : 5,
+		"name" : "max",
+		"id" : 11,
+		"isStateVariable" : true,
+		"type" : "uint"
+	} ]
+}
