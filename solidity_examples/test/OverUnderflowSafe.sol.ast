@@ -1,21 +1,21 @@
 JSON AST (compact format):
 
 
-======= solidity_examples/test/OverUnderflowSafe.sol =======
+======= D:\Desktop\BlockchainSecurity2019-master\Haechi\solidity_examples\test\OverUnderflowSafe.sol =======
 {
-	"absolutePath" : "solidity_examples/test/OverUnderflowSafe.sol",
+	"absolutePath" : "D:\\Desktop\\BlockchainSecurity2019-master\\Haechi\\solidity_examples\\test\\OverUnderflowSafe.sol",
 	"exportedSymbols" : 
 	{
 		"OverUnderFlowSafe" : 
 		[
-			133
+			137
 		],
 		"SafeMath" : 
 		[
-			97
+			101
 		]
 	},
-	"id" : 134,
+	"id" : 138,
 	"nodeType" : "SourceUnit",
 	"nodes" : 
 	[
@@ -37,10 +37,10 @@ JSON AST (compact format):
 			"contractKind" : "library",
 			"documentation" : null,
 			"fullyImplemented" : true,
-			"id" : 97,
+			"id" : 101,
 			"linearizedBaseContracts" : 
 			[
-				97
+				101
 			],
 			"name" : "SafeMath",
 			"nodeType" : "ContractDefinition",
@@ -353,7 +353,7 @@ JSON AST (compact format):
 										"name" : "assert",
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : [],
-										"referencedDeclaration" : 137,
+										"referencedDeclaration" : 141,
 										"src" : "190:6:0",
 										"typeDescriptions" : 
 										{
@@ -517,7 +517,7 @@ JSON AST (compact format):
 						],
 						"src" : "106:9:0"
 					},
-					"scope" : 97,
+					"scope" : 101,
 					"src" : "49:180:0",
 					"stateMutability" : "pure",
 					"superFunction" : null,
@@ -761,7 +761,7 @@ JSON AST (compact format):
 						],
 						"src" : "292:9:0"
 					},
-					"scope" : 97,
+					"scope" : 101,
 					"src" : "235:112:0",
 					"stateMutability" : "pure",
 					"superFunction" : null,
@@ -770,11 +770,104 @@ JSON AST (compact format):
 				{
 					"body" : 
 					{
-						"id" : 71,
+						"id" : 75,
 						"nodeType" : "Block",
-						"src" : "420:46:0",
+						"src" : "420:66:0",
 						"statements" : 
 						[
+							{
+								"assignments" : 
+								[
+									62
+								],
+								"declarations" : 
+								[
+									{
+										"constant" : false,
+										"id" : 62,
+										"name" : "c",
+										"nodeType" : "VariableDeclaration",
+										"scope" : 76,
+										"src" : "427:9:0",
+										"stateVariable" : false,
+										"storageLocation" : "default",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_uint256",
+											"typeString" : "uint256"
+										},
+										"typeName" : 
+										{
+											"id" : 61,
+											"name" : "uint256",
+											"nodeType" : "ElementaryTypeName",
+											"src" : "427:7:0",
+											"typeDescriptions" : 
+											{
+												"typeIdentifier" : "t_uint256",
+												"typeString" : "uint256"
+											}
+										},
+										"value" : null,
+										"visibility" : "internal"
+									}
+								],
+								"id" : 66,
+								"initialValue" : 
+								{
+									"argumentTypes" : null,
+									"commonType" : 
+									{
+										"typeIdentifier" : "t_uint256",
+										"typeString" : "uint256"
+									},
+									"id" : 65,
+									"isConstant" : false,
+									"isLValue" : false,
+									"isPure" : false,
+									"lValueRequested" : false,
+									"leftExpression" : 
+									{
+										"argumentTypes" : null,
+										"id" : 63,
+										"name" : "a",
+										"nodeType" : "Identifier",
+										"overloadedDeclarations" : [],
+										"referencedDeclaration" : 54,
+										"src" : "439:1:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_uint256",
+											"typeString" : "uint256"
+										}
+									},
+									"nodeType" : "BinaryOperation",
+									"operator" : "-",
+									"rightExpression" : 
+									{
+										"argumentTypes" : null,
+										"id" : 64,
+										"name" : "b",
+										"nodeType" : "Identifier",
+										"overloadedDeclarations" : [],
+										"referencedDeclaration" : 56,
+										"src" : "443:1:0",
+										"typeDescriptions" : 
+										{
+											"typeIdentifier" : "t_uint256",
+											"typeString" : "uint256"
+										}
+									},
+									"src" : "439:5:0",
+									"typeDescriptions" : 
+									{
+										"typeIdentifier" : "t_uint256",
+										"typeString" : "uint256"
+									}
+								},
+								"nodeType" : "VariableDeclarationStatement",
+								"src" : "427:17:0"
+							},
 							{
 								"expression" : 
 								{
@@ -788,7 +881,7 @@ JSON AST (compact format):
 												"typeIdentifier" : "t_uint256",
 												"typeString" : "uint256"
 											},
-											"id" : 64,
+											"id" : 70,
 											"isConstant" : false,
 											"isLValue" : false,
 											"isPure" : false,
@@ -796,12 +889,12 @@ JSON AST (compact format):
 											"leftExpression" : 
 											{
 												"argumentTypes" : null,
-												"id" : 62,
+												"id" : 68,
 												"name" : "b",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
 												"referencedDeclaration" : 56,
-												"src" : "434:1:0",
+												"src" : "458:1:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
@@ -813,19 +906,19 @@ JSON AST (compact format):
 											"rightExpression" : 
 											{
 												"argumentTypes" : null,
-												"id" : 63,
+												"id" : 69,
 												"name" : "a",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
 												"referencedDeclaration" : 54,
-												"src" : "439:1:0",
+												"src" : "463:1:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
 													"typeString" : "uint256"
 												}
 											},
-											"src" : "434:6:0",
+											"src" : "458:6:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_bool",
@@ -842,19 +935,19 @@ JSON AST (compact format):
 												"typeString" : "bool"
 											}
 										],
-										"id" : 61,
+										"id" : 67,
 										"name" : "assert",
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : [],
-										"referencedDeclaration" : 137,
-										"src" : "427:6:0",
+										"referencedDeclaration" : 141,
+										"src" : "451:6:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_function_assert_pure$_t_bool_$returns$__$",
 											"typeString" : "function (bool) pure"
 										}
 									},
-									"id" : 65,
+									"id" : 71,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -862,64 +955,27 @@ JSON AST (compact format):
 									"lValueRequested" : false,
 									"names" : [],
 									"nodeType" : "FunctionCall",
-									"src" : "427:14:0",
+									"src" : "451:14:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_tuple$__$",
 										"typeString" : "tuple()"
 									}
 								},
-								"id" : 66,
+								"id" : 72,
 								"nodeType" : "ExpressionStatement",
-								"src" : "427:14:0"
+								"src" : "451:14:0"
 							},
 							{
 								"expression" : 
 								{
 									"argumentTypes" : null,
-									"commonType" : 
-									{
-										"typeIdentifier" : "t_uint256",
-										"typeString" : "uint256"
-									},
-									"id" : 69,
-									"isConstant" : false,
-									"isLValue" : false,
-									"isPure" : false,
-									"lValueRequested" : false,
-									"leftExpression" : 
-									{
-										"argumentTypes" : null,
-										"id" : 67,
-										"name" : "a",
-										"nodeType" : "Identifier",
-										"overloadedDeclarations" : [],
-										"referencedDeclaration" : 54,
-										"src" : "455:1:0",
-										"typeDescriptions" : 
-										{
-											"typeIdentifier" : "t_uint256",
-											"typeString" : "uint256"
-										}
-									},
-									"nodeType" : "BinaryOperation",
-									"operator" : "-",
-									"rightExpression" : 
-									{
-										"argumentTypes" : null,
-										"id" : 68,
-										"name" : "b",
-										"nodeType" : "Identifier",
-										"overloadedDeclarations" : [],
-										"referencedDeclaration" : 56,
-										"src" : "459:1:0",
-										"typeDescriptions" : 
-										{
-											"typeIdentifier" : "t_uint256",
-											"typeString" : "uint256"
-										}
-									},
-									"src" : "455:5:0",
+									"id" : 73,
+									"name" : "c",
+									"nodeType" : "Identifier",
+									"overloadedDeclarations" : [],
+									"referencedDeclaration" : 62,
+									"src" : "479:1:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_uint256",
@@ -927,14 +983,14 @@ JSON AST (compact format):
 									}
 								},
 								"functionReturnParameters" : 60,
-								"id" : 70,
+								"id" : 74,
 								"nodeType" : "Return",
-								"src" : "448:12:0"
+								"src" : "472:8:0"
 							}
 						]
 					},
 					"documentation" : null,
-					"id" : 72,
+					"id" : 76,
 					"implemented" : true,
 					"isConstructor" : false,
 					"isDeclaredConst" : true,
@@ -952,7 +1008,7 @@ JSON AST (compact format):
 								"id" : 54,
 								"name" : "a",
 								"nodeType" : "VariableDeclaration",
-								"scope" : 72,
+								"scope" : 76,
 								"src" : "366:9:0",
 								"stateVariable" : false,
 								"storageLocation" : "default",
@@ -981,7 +1037,7 @@ JSON AST (compact format):
 								"id" : 56,
 								"name" : "b",
 								"nodeType" : "VariableDeclaration",
-								"scope" : 72,
+								"scope" : 76,
 								"src" : "377:9:0",
 								"stateVariable" : false,
 								"storageLocation" : "default",
@@ -1020,7 +1076,7 @@ JSON AST (compact format):
 								"id" : 59,
 								"name" : "",
 								"nodeType" : "VariableDeclaration",
-								"scope" : 72,
+								"scope" : 76,
 								"src" : "411:7:0",
 								"stateVariable" : false,
 								"storageLocation" : "default",
@@ -1047,8 +1103,8 @@ JSON AST (compact format):
 						],
 						"src" : "410:9:0"
 					},
-					"scope" : 97,
-					"src" : "353:113:0",
+					"scope" : 101,
+					"src" : "353:133:0",
 					"stateMutability" : "pure",
 					"superFunction" : null,
 					"visibility" : "internal"
@@ -1056,25 +1112,25 @@ JSON AST (compact format):
 				{
 					"body" : 
 					{
-						"id" : 95,
+						"id" : 99,
 						"nodeType" : "Block",
-						"src" : "539:66:0",
+						"src" : "559:66:0",
 						"statements" : 
 						[
 							{
 								"assignments" : 
 								[
-									82
+									86
 								],
 								"declarations" : 
 								[
 									{
 										"constant" : false,
-										"id" : 82,
+										"id" : 86,
 										"name" : "c",
 										"nodeType" : "VariableDeclaration",
-										"scope" : 96,
-										"src" : "546:9:0",
+										"scope" : 100,
+										"src" : "566:9:0",
 										"stateVariable" : false,
 										"storageLocation" : "default",
 										"typeDescriptions" : 
@@ -1084,10 +1140,10 @@ JSON AST (compact format):
 										},
 										"typeName" : 
 										{
-											"id" : 81,
+											"id" : 85,
 											"name" : "uint256",
 											"nodeType" : "ElementaryTypeName",
-											"src" : "546:7:0",
+											"src" : "566:7:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_uint256",
@@ -1098,7 +1154,7 @@ JSON AST (compact format):
 										"visibility" : "internal"
 									}
 								],
-								"id" : 86,
+								"id" : 90,
 								"initialValue" : 
 								{
 									"argumentTypes" : null,
@@ -1107,7 +1163,7 @@ JSON AST (compact format):
 										"typeIdentifier" : "t_uint256",
 										"typeString" : "uint256"
 									},
-									"id" : 85,
+									"id" : 89,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -1115,12 +1171,12 @@ JSON AST (compact format):
 									"leftExpression" : 
 									{
 										"argumentTypes" : null,
-										"id" : 83,
+										"id" : 87,
 										"name" : "a",
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : [],
-										"referencedDeclaration" : 74,
-										"src" : "558:1:0",
+										"referencedDeclaration" : 78,
+										"src" : "578:1:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
@@ -1132,19 +1188,19 @@ JSON AST (compact format):
 									"rightExpression" : 
 									{
 										"argumentTypes" : null,
-										"id" : 84,
+										"id" : 88,
 										"name" : "b",
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : [],
-										"referencedDeclaration" : 76,
-										"src" : "562:1:0",
+										"referencedDeclaration" : 80,
+										"src" : "582:1:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
 											"typeString" : "uint256"
 										}
 									},
-									"src" : "558:5:0",
+									"src" : "578:5:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_uint256",
@@ -1152,7 +1208,7 @@ JSON AST (compact format):
 									}
 								},
 								"nodeType" : "VariableDeclarationStatement",
-								"src" : "546:17:0"
+								"src" : "566:17:0"
 							},
 							{
 								"expression" : 
@@ -1167,7 +1223,7 @@ JSON AST (compact format):
 												"typeIdentifier" : "t_uint256",
 												"typeString" : "uint256"
 											},
-											"id" : 90,
+											"id" : 94,
 											"isConstant" : false,
 											"isLValue" : false,
 											"isPure" : false,
@@ -1175,12 +1231,12 @@ JSON AST (compact format):
 											"leftExpression" : 
 											{
 												"argumentTypes" : null,
-												"id" : 88,
+												"id" : 92,
 												"name" : "c",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
-												"referencedDeclaration" : 82,
-												"src" : "577:1:0",
+												"referencedDeclaration" : 86,
+												"src" : "597:1:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
@@ -1192,19 +1248,19 @@ JSON AST (compact format):
 											"rightExpression" : 
 											{
 												"argumentTypes" : null,
-												"id" : 89,
+												"id" : 93,
 												"name" : "a",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
-												"referencedDeclaration" : 74,
-												"src" : "582:1:0",
+												"referencedDeclaration" : 78,
+												"src" : "602:1:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
 													"typeString" : "uint256"
 												}
 											},
-											"src" : "577:6:0",
+											"src" : "597:6:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_bool",
@@ -1221,19 +1277,19 @@ JSON AST (compact format):
 												"typeString" : "bool"
 											}
 										],
-										"id" : 87,
+										"id" : 91,
 										"name" : "assert",
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : [],
-										"referencedDeclaration" : 137,
-										"src" : "570:6:0",
+										"referencedDeclaration" : 141,
+										"src" : "590:6:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_function_assert_pure$_t_bool_$returns$__$",
 											"typeString" : "function (bool) pure"
 										}
 									},
-									"id" : 91,
+									"id" : 95,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -1241,42 +1297,42 @@ JSON AST (compact format):
 									"lValueRequested" : false,
 									"names" : [],
 									"nodeType" : "FunctionCall",
-									"src" : "570:14:0",
+									"src" : "590:14:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_tuple$__$",
 										"typeString" : "tuple()"
 									}
 								},
-								"id" : 92,
+								"id" : 96,
 								"nodeType" : "ExpressionStatement",
-								"src" : "570:14:0"
+								"src" : "590:14:0"
 							},
 							{
 								"expression" : 
 								{
 									"argumentTypes" : null,
-									"id" : 93,
+									"id" : 97,
 									"name" : "c",
 									"nodeType" : "Identifier",
 									"overloadedDeclarations" : [],
-									"referencedDeclaration" : 82,
-									"src" : "598:1:0",
+									"referencedDeclaration" : 86,
+									"src" : "618:1:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_uint256",
 										"typeString" : "uint256"
 									}
 								},
-								"functionReturnParameters" : 80,
-								"id" : 94,
+								"functionReturnParameters" : 84,
+								"id" : 98,
 								"nodeType" : "Return",
-								"src" : "591:8:0"
+								"src" : "611:8:0"
 							}
 						]
 					},
 					"documentation" : null,
-					"id" : 96,
+					"id" : 100,
 					"implemented" : true,
 					"isConstructor" : false,
 					"isDeclaredConst" : true,
@@ -1285,17 +1341,17 @@ JSON AST (compact format):
 					"nodeType" : "FunctionDefinition",
 					"parameters" : 
 					{
-						"id" : 77,
+						"id" : 81,
 						"nodeType" : "ParameterList",
 						"parameters" : 
 						[
 							{
 								"constant" : false,
-								"id" : 74,
+								"id" : 78,
 								"name" : "a",
 								"nodeType" : "VariableDeclaration",
-								"scope" : 96,
-								"src" : "485:9:0",
+								"scope" : 100,
+								"src" : "505:9:0",
 								"stateVariable" : false,
 								"storageLocation" : "default",
 								"typeDescriptions" : 
@@ -1305,10 +1361,10 @@ JSON AST (compact format):
 								},
 								"typeName" : 
 								{
-									"id" : 73,
+									"id" : 77,
 									"name" : "uint256",
 									"nodeType" : "ElementaryTypeName",
-									"src" : "485:7:0",
+									"src" : "505:7:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_uint256",
@@ -1320,11 +1376,11 @@ JSON AST (compact format):
 							},
 							{
 								"constant" : false,
-								"id" : 76,
+								"id" : 80,
 								"name" : "b",
 								"nodeType" : "VariableDeclaration",
-								"scope" : 96,
-								"src" : "496:9:0",
+								"scope" : 100,
+								"src" : "516:9:0",
 								"stateVariable" : false,
 								"storageLocation" : "default",
 								"typeDescriptions" : 
@@ -1334,10 +1390,10 @@ JSON AST (compact format):
 								},
 								"typeName" : 
 								{
-									"id" : 75,
+									"id" : 79,
 									"name" : "uint256",
 									"nodeType" : "ElementaryTypeName",
-									"src" : "496:7:0",
+									"src" : "516:7:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_uint256",
@@ -1348,22 +1404,22 @@ JSON AST (compact format):
 								"visibility" : "internal"
 							}
 						],
-						"src" : "484:22:0"
+						"src" : "504:22:0"
 					},
 					"payable" : false,
 					"returnParameters" : 
 					{
-						"id" : 80,
+						"id" : 84,
 						"nodeType" : "ParameterList",
 						"parameters" : 
 						[
 							{
 								"constant" : false,
-								"id" : 79,
+								"id" : 83,
 								"name" : "",
 								"nodeType" : "VariableDeclaration",
-								"scope" : 96,
-								"src" : "530:7:0",
+								"scope" : 100,
+								"src" : "550:7:0",
 								"stateVariable" : false,
 								"storageLocation" : "default",
 								"typeDescriptions" : 
@@ -1373,10 +1429,10 @@ JSON AST (compact format):
 								},
 								"typeName" : 
 								{
-									"id" : 78,
+									"id" : 82,
 									"name" : "uint256",
 									"nodeType" : "ElementaryTypeName",
-									"src" : "530:7:0",
+									"src" : "550:7:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_uint256",
@@ -1387,17 +1443,17 @@ JSON AST (compact format):
 								"visibility" : "internal"
 							}
 						],
-						"src" : "529:9:0"
+						"src" : "549:9:0"
 					},
-					"scope" : 97,
-					"src" : "472:133:0",
+					"scope" : 101,
+					"src" : "492:133:0",
 					"stateMutability" : "pure",
 					"superFunction" : null,
 					"visibility" : "internal"
 				}
 			],
-			"scope" : 134,
-			"src" : "27:581:0"
+			"scope" : 138,
+			"src" : "27:601:0"
 		},
 		{
 			"baseContracts" : [],
@@ -1405,39 +1461,39 @@ JSON AST (compact format):
 			"contractKind" : "contract",
 			"documentation" : null,
 			"fullyImplemented" : true,
-			"id" : 133,
+			"id" : 137,
 			"linearizedBaseContracts" : 
 			[
-				133
+				137
 			],
 			"name" : "OverUnderFlowSafe",
 			"nodeType" : "ContractDefinition",
 			"nodes" : 
 			[
 				{
-					"id" : 100,
+					"id" : 104,
 					"libraryName" : 
 					{
 						"contractScope" : null,
-						"id" : 98,
+						"id" : 102,
 						"name" : "SafeMath",
 						"nodeType" : "UserDefinedTypeName",
-						"referencedDeclaration" : 97,
-						"src" : "652:8:0",
+						"referencedDeclaration" : 101,
+						"src" : "672:8:0",
 						"typeDescriptions" : 
 						{
-							"typeIdentifier" : "t_contract$_SafeMath_$97",
+							"typeIdentifier" : "t_contract$_SafeMath_$101",
 							"typeString" : "library SafeMath"
 						}
 					},
 					"nodeType" : "UsingForDirective",
-					"src" : "646:24:0",
+					"src" : "666:24:0",
 					"typeName" : 
 					{
-						"id" : 99,
+						"id" : 103,
 						"name" : "uint",
 						"nodeType" : "ElementaryTypeName",
-						"src" : "665:4:0",
+						"src" : "685:4:0",
 						"typeDescriptions" : 
 						{
 							"typeIdentifier" : "t_uint256",
@@ -1447,11 +1503,11 @@ JSON AST (compact format):
 				},
 				{
 					"constant" : false,
-					"id" : 103,
+					"id" : 107,
 					"name" : "zero",
 					"nodeType" : "VariableDeclaration",
-					"scope" : 133,
-					"src" : "676:20:0",
+					"scope" : 137,
+					"src" : "696:20:0",
 					"stateVariable" : true,
 					"storageLocation" : "default",
 					"typeDescriptions" : 
@@ -1461,10 +1517,10 @@ JSON AST (compact format):
 					},
 					"typeName" : 
 					{
-						"id" : 101,
+						"id" : 105,
 						"name" : "uint",
 						"nodeType" : "ElementaryTypeName",
-						"src" : "676:4:0",
+						"src" : "696:4:0",
 						"typeDescriptions" : 
 						{
 							"typeIdentifier" : "t_uint256",
@@ -1475,14 +1531,14 @@ JSON AST (compact format):
 					{
 						"argumentTypes" : null,
 						"hexValue" : "30",
-						"id" : 102,
+						"id" : 106,
 						"isConstant" : false,
 						"isLValue" : false,
 						"isPure" : true,
 						"kind" : "number",
 						"lValueRequested" : false,
 						"nodeType" : "Literal",
-						"src" : "695:1:0",
+						"src" : "715:1:0",
 						"subdenomination" : null,
 						"typeDescriptions" : 
 						{
@@ -1495,11 +1551,11 @@ JSON AST (compact format):
 				},
 				{
 					"constant" : false,
-					"id" : 110,
+					"id" : 114,
 					"name" : "max",
 					"nodeType" : "VariableDeclaration",
-					"scope" : 133,
-					"src" : "703:26:0",
+					"scope" : 137,
+					"src" : "723:26:0",
 					"stateVariable" : true,
 					"storageLocation" : "default",
 					"typeDescriptions" : 
@@ -1509,10 +1565,10 @@ JSON AST (compact format):
 					},
 					"typeName" : 
 					{
-						"id" : 104,
+						"id" : 108,
 						"name" : "uint",
 						"nodeType" : "ElementaryTypeName",
-						"src" : "703:4:0",
+						"src" : "723:4:0",
 						"typeDescriptions" : 
 						{
 							"typeIdentifier" : "t_uint256",
@@ -1527,7 +1583,7 @@ JSON AST (compact format):
 							"typeIdentifier" : "t_rational_115792089237316195423570985008687907853269984665640564039457584007913129639935_by_1",
 							"typeString" : "int_const 1157...(70 digits omitted)...9935"
 						},
-						"id" : 109,
+						"id" : 113,
 						"isConstant" : false,
 						"isLValue" : false,
 						"isPure" : true,
@@ -1540,7 +1596,7 @@ JSON AST (compact format):
 								"typeIdentifier" : "t_rational_115792089237316195423570985008687907853269984665640564039457584007913129639936_by_1",
 								"typeString" : "int_const 1157...(70 digits omitted)...9936"
 							},
-							"id" : 107,
+							"id" : 111,
 							"isConstant" : false,
 							"isLValue" : false,
 							"isPure" : true,
@@ -1549,14 +1605,14 @@ JSON AST (compact format):
 							{
 								"argumentTypes" : null,
 								"hexValue" : "32",
-								"id" : 105,
+								"id" : 109,
 								"isConstant" : false,
 								"isLValue" : false,
 								"isPure" : true,
 								"kind" : "number",
 								"lValueRequested" : false,
 								"nodeType" : "Literal",
-								"src" : "721:1:0",
+								"src" : "741:1:0",
 								"subdenomination" : null,
 								"typeDescriptions" : 
 								{
@@ -1571,14 +1627,14 @@ JSON AST (compact format):
 							{
 								"argumentTypes" : null,
 								"hexValue" : "323536",
-								"id" : 106,
+								"id" : 110,
 								"isConstant" : false,
 								"isLValue" : false,
 								"isPure" : true,
 								"kind" : "number",
 								"lValueRequested" : false,
 								"nodeType" : "Literal",
-								"src" : "724:3:0",
+								"src" : "744:3:0",
 								"subdenomination" : null,
 								"typeDescriptions" : 
 								{
@@ -1587,7 +1643,7 @@ JSON AST (compact format):
 								},
 								"value" : "256"
 							},
-							"src" : "721:6:0",
+							"src" : "741:6:0",
 							"typeDescriptions" : 
 							{
 								"typeIdentifier" : "t_rational_115792089237316195423570985008687907853269984665640564039457584007913129639936_by_1",
@@ -1600,14 +1656,14 @@ JSON AST (compact format):
 						{
 							"argumentTypes" : null,
 							"hexValue" : "31",
-							"id" : 108,
+							"id" : 112,
 							"isConstant" : false,
 							"isLValue" : false,
 							"isPure" : true,
 							"kind" : "number",
 							"lValueRequested" : false,
 							"nodeType" : "Literal",
-							"src" : "728:1:0",
+							"src" : "748:1:0",
 							"subdenomination" : null,
 							"typeDescriptions" : 
 							{
@@ -1616,7 +1672,7 @@ JSON AST (compact format):
 							},
 							"value" : "1"
 						},
-						"src" : "721:8:0",
+						"src" : "741:8:0",
 						"typeDescriptions" : 
 						{
 							"typeIdentifier" : "t_rational_115792089237316195423570985008687907853269984665640564039457584007913129639935_by_1",
@@ -1628,16 +1684,16 @@ JSON AST (compact format):
 				{
 					"body" : 
 					{
-						"id" : 120,
+						"id" : 124,
 						"nodeType" : "Block",
-						"src" : "763:37:0",
+						"src" : "783:37:0",
 						"statements" : 
 						[
 							{
 								"expression" : 
 								{
 									"argumentTypes" : null,
-									"id" : 118,
+									"id" : 122,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -1645,12 +1701,12 @@ JSON AST (compact format):
 									"leftHandSide" : 
 									{
 										"argumentTypes" : null,
-										"id" : 113,
+										"id" : 117,
 										"name" : "zero",
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : [],
-										"referencedDeclaration" : 103,
-										"src" : "774:4:0",
+										"referencedDeclaration" : 107,
+										"src" : "794:4:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
@@ -1667,14 +1723,14 @@ JSON AST (compact format):
 											{
 												"argumentTypes" : null,
 												"hexValue" : "31",
-												"id" : 116,
+												"id" : 120,
 												"isConstant" : false,
 												"isLValue" : false,
 												"isPure" : true,
 												"kind" : "number",
 												"lValueRequested" : false,
 												"nodeType" : "Literal",
-												"src" : "790:1:0",
+												"src" : "810:1:0",
 												"subdenomination" : null,
 												"typeDescriptions" : 
 												{
@@ -1696,34 +1752,34 @@ JSON AST (compact format):
 											"expression" : 
 											{
 												"argumentTypes" : null,
-												"id" : 114,
+												"id" : 118,
 												"name" : "zero",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
-												"referencedDeclaration" : 103,
-												"src" : "781:4:0",
+												"referencedDeclaration" : 107,
+												"src" : "801:4:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
 													"typeString" : "uint256"
 												}
 											},
-											"id" : 115,
+											"id" : 119,
 											"isConstant" : false,
 											"isLValue" : false,
 											"isPure" : false,
 											"lValueRequested" : false,
 											"memberName" : "sub",
 											"nodeType" : "MemberAccess",
-											"referencedDeclaration" : 72,
-											"src" : "781:8:0",
+											"referencedDeclaration" : 76,
+											"src" : "801:8:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
 												"typeString" : "function (uint256,uint256) pure returns (uint256)"
 											}
 										},
-										"id" : 117,
+										"id" : 121,
 										"isConstant" : false,
 										"isLValue" : false,
 										"isPure" : false,
@@ -1731,28 +1787,28 @@ JSON AST (compact format):
 										"lValueRequested" : false,
 										"names" : [],
 										"nodeType" : "FunctionCall",
-										"src" : "781:11:0",
+										"src" : "801:11:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
 											"typeString" : "uint256"
 										}
 									},
-									"src" : "774:18:0",
+									"src" : "794:18:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_uint256",
 										"typeString" : "uint256"
 									}
 								},
-								"id" : 119,
+								"id" : 123,
 								"nodeType" : "ExpressionStatement",
-								"src" : "774:18:0"
+								"src" : "794:18:0"
 							}
 						]
 					},
 					"documentation" : null,
-					"id" : 121,
+					"id" : 125,
 					"implemented" : true,
 					"isConstructor" : false,
 					"isDeclaredConst" : false,
@@ -1761,21 +1817,21 @@ JSON AST (compact format):
 					"nodeType" : "FunctionDefinition",
 					"parameters" : 
 					{
-						"id" : 111,
+						"id" : 115,
 						"nodeType" : "ParameterList",
 						"parameters" : [],
-						"src" : "760:2:0"
+						"src" : "780:2:0"
 					},
 					"payable" : false,
 					"returnParameters" : 
 					{
-						"id" : 112,
+						"id" : 116,
 						"nodeType" : "ParameterList",
 						"parameters" : [],
-						"src" : "763:0:0"
+						"src" : "783:0:0"
 					},
-					"scope" : 133,
-					"src" : "742:58:0",
+					"scope" : 137,
+					"src" : "762:58:0",
 					"stateMutability" : "nonpayable",
 					"superFunction" : null,
 					"visibility" : "public"
@@ -1783,16 +1839,16 @@ JSON AST (compact format):
 				{
 					"body" : 
 					{
-						"id" : 131,
+						"id" : 135,
 						"nodeType" : "Block",
-						"src" : "833:35:0",
+						"src" : "853:35:0",
 						"statements" : 
 						[
 							{
 								"expression" : 
 								{
 									"argumentTypes" : null,
-									"id" : 129,
+									"id" : 133,
 									"isConstant" : false,
 									"isLValue" : false,
 									"isPure" : false,
@@ -1800,12 +1856,12 @@ JSON AST (compact format):
 									"leftHandSide" : 
 									{
 										"argumentTypes" : null,
-										"id" : 124,
+										"id" : 128,
 										"name" : "max",
 										"nodeType" : "Identifier",
 										"overloadedDeclarations" : [],
-										"referencedDeclaration" : 110,
-										"src" : "844:3:0",
+										"referencedDeclaration" : 114,
+										"src" : "864:3:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
@@ -1822,14 +1878,14 @@ JSON AST (compact format):
 											{
 												"argumentTypes" : null,
 												"hexValue" : "31",
-												"id" : 127,
+												"id" : 131,
 												"isConstant" : false,
 												"isLValue" : false,
 												"isPure" : true,
 												"kind" : "number",
 												"lValueRequested" : false,
 												"nodeType" : "Literal",
-												"src" : "858:1:0",
+												"src" : "878:1:0",
 												"subdenomination" : null,
 												"typeDescriptions" : 
 												{
@@ -1851,34 +1907,34 @@ JSON AST (compact format):
 											"expression" : 
 											{
 												"argumentTypes" : null,
-												"id" : 125,
+												"id" : 129,
 												"name" : "max",
 												"nodeType" : "Identifier",
 												"overloadedDeclarations" : [],
-												"referencedDeclaration" : 110,
-												"src" : "850:3:0",
+												"referencedDeclaration" : 114,
+												"src" : "870:3:0",
 												"typeDescriptions" : 
 												{
 													"typeIdentifier" : "t_uint256",
 													"typeString" : "uint256"
 												}
 											},
-											"id" : 126,
+											"id" : 130,
 											"isConstant" : false,
 											"isLValue" : false,
 											"isPure" : false,
 											"lValueRequested" : false,
 											"memberName" : "add",
 											"nodeType" : "MemberAccess",
-											"referencedDeclaration" : 96,
-											"src" : "850:7:0",
+											"referencedDeclaration" : 100,
+											"src" : "870:7:0",
 											"typeDescriptions" : 
 											{
 												"typeIdentifier" : "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
 												"typeString" : "function (uint256,uint256) pure returns (uint256)"
 											}
 										},
-										"id" : 128,
+										"id" : 132,
 										"isConstant" : false,
 										"isLValue" : false,
 										"isPure" : false,
@@ -1886,28 +1942,28 @@ JSON AST (compact format):
 										"lValueRequested" : false,
 										"names" : [],
 										"nodeType" : "FunctionCall",
-										"src" : "850:10:0",
+										"src" : "870:10:0",
 										"typeDescriptions" : 
 										{
 											"typeIdentifier" : "t_uint256",
 											"typeString" : "uint256"
 										}
 									},
-									"src" : "844:16:0",
+									"src" : "864:16:0",
 									"typeDescriptions" : 
 									{
 										"typeIdentifier" : "t_uint256",
 										"typeString" : "uint256"
 									}
 								},
-								"id" : 130,
+								"id" : 134,
 								"nodeType" : "ExpressionStatement",
-								"src" : "844:16:0"
+								"src" : "864:16:0"
 							}
 						]
 					},
 					"documentation" : null,
-					"id" : 132,
+					"id" : 136,
 					"implemented" : true,
 					"isConstructor" : false,
 					"isDeclaredConst" : false,
@@ -1916,29 +1972,29 @@ JSON AST (compact format):
 					"nodeType" : "FunctionDefinition",
 					"parameters" : 
 					{
-						"id" : 122,
+						"id" : 126,
 						"nodeType" : "ParameterList",
 						"parameters" : [],
-						"src" : "823:2:0"
+						"src" : "843:2:0"
 					},
 					"payable" : false,
 					"returnParameters" : 
 					{
-						"id" : 123,
+						"id" : 127,
 						"nodeType" : "ParameterList",
 						"parameters" : [],
-						"src" : "833:0:0"
+						"src" : "853:0:0"
 					},
-					"scope" : 133,
-					"src" : "806:62:0",
+					"scope" : 137,
+					"src" : "826:62:0",
 					"stateMutability" : "nonpayable",
 					"superFunction" : null,
 					"visibility" : "public"
 				}
 			],
-			"scope" : 134,
-			"src" : "612:259:0"
+			"scope" : 138,
+			"src" : "632:259:0"
 		}
 	],
-	"src" : "0:871:0"
+	"src" : "0:891:0"
 }

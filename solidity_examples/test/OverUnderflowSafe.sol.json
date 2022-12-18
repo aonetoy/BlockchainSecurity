@@ -4,12 +4,12 @@
 		"kind" : "library",
 		"line" : 3,
 		"name" : "SafeMath",
-		"id" : 97
+		"id" : 101
 	}, {
 		"kind" : "contract",
-		"line" : 30,
+		"line" : 31,
 		"name" : "OverUnderFlowSafe",
-		"id" : 133
+		"id" : 137
 	} ],
 	"functionDefinition" : [ {
 		"visibility" : "internal",
@@ -25,22 +25,22 @@
 		"visibility" : "internal",
 		"line" : 18,
 		"name" : "sub",
-		"id" : 72
+		"id" : 76
 	}, {
 		"visibility" : "internal",
-		"line" : 23,
+		"line" : 24,
 		"name" : "add",
-		"id" : 96
+		"id" : 100
 	}, {
 		"visibility" : "public",
-		"line" : 35,
+		"line" : 36,
 		"name" : "underflow",
-		"id" : 121
+		"id" : 125
 	}, {
 		"visibility" : "public",
-		"line" : 38,
+		"line" : 39,
 		"name" : "overflow",
-		"id" : 132
+		"id" : 136
 	} ],
 	"functionCall" : [ {
 		"caller" : "assert",
@@ -49,24 +49,24 @@
 		"id" : 29
 	}, {
 		"caller" : "assert",
-		"line" : 19,
+		"line" : 20,
 		"name" : "None",
-		"id" : 65
+		"id" : 71
 	}, {
 		"caller" : "assert",
-		"line" : 25,
+		"line" : 26,
 		"name" : "None",
-		"id" : 91
+		"id" : 95
 	}, {
 		"caller" : "zero",
-		"line" : 36,
+		"line" : 37,
 		"name" : "sub",
-		"id" : 117
+		"id" : 121
 	}, {
 		"caller" : "max",
-		"line" : 39,
+		"line" : 40,
 		"name" : "add",
-		"id" : 128
+		"id" : 132
 	} ],
 	"VariableDeclaration" : [ {
 		"line" : 8,
@@ -105,6 +105,12 @@
 		"isStateVariable" : false,
 		"type" : "uint256"
 	}, {
+		"line" : 19,
+		"name" : "c",
+		"id" : 62,
+		"isStateVariable" : false,
+		"type" : "uint256"
+	}, {
 		"line" : 18,
 		"name" : "a",
 		"id" : 54,
@@ -117,33 +123,33 @@
 		"isStateVariable" : false,
 		"type" : "uint256"
 	}, {
-		"line" : 24,
+		"line" : 25,
 		"name" : "c",
-		"id" : 82,
+		"id" : 86,
 		"isStateVariable" : false,
 		"type" : "uint256"
 	}, {
-		"line" : 23,
+		"line" : 24,
 		"name" : "a",
-		"id" : 74,
+		"id" : 78,
 		"isStateVariable" : false,
 		"type" : "uint256"
 	}, {
-		"line" : 23,
+		"line" : 24,
 		"name" : "b",
-		"id" : 76,
+		"id" : 80,
 		"isStateVariable" : false,
 		"type" : "uint256"
 	}, {
-		"line" : 32,
+		"line" : 33,
 		"name" : "zero",
-		"id" : 103,
+		"id" : 107,
 		"isStateVariable" : true,
 		"type" : "uint"
 	}, {
-		"line" : 33,
+		"line" : 34,
 		"name" : "max",
-		"id" : 110,
+		"id" : 114,
 		"isStateVariable" : true,
 		"type" : "uint"
 	} ]
